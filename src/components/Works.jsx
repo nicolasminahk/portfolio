@@ -19,7 +19,7 @@ const Works = () => {
             </Cards>
 
             {/* Card 3 */}
-            <Cards className="w-80" title="DISEÑO" description="Trabajos en relación al diseño gráfico">
+            <Cards className="w-80" title="Audiovisual" description="Trabajos en relación al diseño gráfico">
                 {/* Contenido de la tarjeta */}
             </Cards>
         </div>
