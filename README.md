@@ -1,8 +1,17 @@
-# React + Vite
+# Bienvenido a mi Landing Page
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+¡Hola! Soy [Nicolas Minahk](#), un diseñador multimedia, audiovisualista y front end. Esta es mi landing page, donde puedes conocer más sobre mí y mi trabajo.
 
-Currently, two official plugins are available:
+## Sobre Mí
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Soy un apasionado del diseño multimedia y la creación de experiencias visuales impactantes. Con una sólida formación en diseño y desarrollo front end, me especializo en fusionar arte y tecnología para crear proyectos innovadores y memorables.
+
+## ¿Qué encontrarás aquí?
+
+En esta página, encontrarás información sobre mi experiencia, habilidades y proyectos destacados. Desde diseño gráfico hasta desarrollo web, mi objetivo es ofrecer soluciones creativas y efectivas que superen las expectativas de mis clientes y usuarios.
+
+## Contacto
+
+¡No dudes en [contactarme](#) si deseas colaborar en un proyecto o simplemente quieres saludar! Estoy siempre abierto a nuevas oportunidades y conexiones en la industria multimedia y tecnológica.
+
+¡Gracias por visitar mi landing page!
