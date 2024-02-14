@@ -6,6 +6,8 @@ import CarrucelLogos from './CarrucelLogos'
 import { FooterWithLogo } from './Footer'
 import nm from '../assets/nm.png'
 import ContactForm from './ContactForm'
+import AboutMe from './AboutMe'
+import whatsappIcon from '../assets/wp.png'
 
 const navigation = [
     { name: 'Product', href: '#' },
@@ -72,19 +74,17 @@ export default function Example() {
                             Transformando Ideas en Experiencias Únicas
                         </h1>
                         <p className="mt-6 text-lg leading-8 text-gray-600">
-                            De Filmmaker a Desarrollador Frontend: Uniendo Arte, Tecnología y Emociones para Construir
-                            Identidades Visuales Memorables
+                            De Filmmaker a Desarrollador Web: Uniendo Arte, Tecnología y Emociones para Construir
+                            Identidades Visuales Memorables.
                         </p>
                         <div className="mt-10 flex items-center justify-center gap-x-6">
                             <a
                                 href="#"
-                                className="rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+                                className="rounded-md px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+                                style={{ background: 'linear-gradient(135deg, #FF77A9, #FFB6C1)' }}
                             >
-                                Comencemos!
+                                Deslizá hacia abajo
                             </a>
-                            {/* <a href="#" className="text-sm font-semibold leading-6 text-gray-900">
-                                Contáctame<span aria-hidden="true">→</span>
-                            </a> */}
                         </div>
                     </div>
                 </div>
@@ -100,9 +100,20 @@ export default function Example() {
                         }}
                     />
                 </div>
+                <a
+                    href="https://wa.me/3814012014"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="fixed bottom-8 right-8 z-50 w-14 h-14 bg-green-500 text-white rounded-full flex items-center justify-center shadow-md hover:bg-green-600"
+                >
+                    <div className="w-12 h-12 bg-transparent rounded-full flex items-center justify-center">
+                        <img src={whatsappIcon} alt="WhatsApp" className="w-15 h-15" />
+                    </div>
+                </a>
             </div>
             <Works />
             <CarrucelLogos />
+            <AboutMe />
             <ContactForm />
             <FooterWithLogo />
         </div>
