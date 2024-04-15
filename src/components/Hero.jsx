@@ -8,6 +8,7 @@ import nm from '../assets/nm.png'
 import ContactForm from './ContactForm'
 import AboutMe from './AboutMe'
 import whatsappIcon from '../assets/wp.png'
+import ListAI from './ListAI'
 
 const navigation = [
     { name: 'Product', href: '#' },
@@ -111,6 +112,7 @@ export default function Example() {
                     </div>
                 </a>
             </div>
+            <ListAI />
             <Works />
             <CarrucelLogos />
             <AboutMe />
