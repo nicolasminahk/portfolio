@@ -112,7 +112,6 @@ export default function Example() {
                     </div>
                 </a>
             </div>
-            <ListAI />
             <Works />
             <CarrucelLogos />
             <AboutMe />
